@@ -21,5 +21,4 @@ public fun CharSequence.spannify(): CharSequence = tokenize().parse().spannify(c
  */
 public fun String.property(property: String, vararg values: String): String = addProperty(property, values.toList())
 
-
 // TODO : Improve Documentation (K-Doc)
